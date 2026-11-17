@@ -9,3 +9,7 @@ Thumbs.db
 
 # Dependências (caso use no futuro)
 node_modules/
+
+# Arquivos gerados para publicar
+_publicar/
+site-para-hostinger.zip

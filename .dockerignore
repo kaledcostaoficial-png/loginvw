@@ -1,0 +1,10 @@
+# Não precisa ir para o servidor web:
+.git/
+docs/
+_publicar/
+site-para-hostinger.zip
+README.md
+.env
+.env.example
+.gitignore
+.dockerignore
