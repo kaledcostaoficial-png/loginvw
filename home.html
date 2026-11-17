@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minha conta</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- começa escondido até confirmar que está logado -->
+    <main class="cartao" id="conteudo" style="visibility: hidden">
+      <h1 class="titulo">Você está dentro! 🎉</h1>
+      <p class="subtitulo">
+        Logado como <strong id="email-usuario"></strong>
+      </p>
+
+      <button type="button" id="botao-sair">Sair</button>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabaseClient.js"></script>
+    <script src="js/guard.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
