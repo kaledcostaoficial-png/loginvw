@@ -1,0 +1,11 @@
+# Nunca versionar chaves/segredos reais
+.env
+.env.local
+*.key
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Dependências (caso use no futuro)
+node_modules/
